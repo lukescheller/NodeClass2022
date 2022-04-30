@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/media/B1KXWNzIgAAG-Ow.jpg">
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="main-content">
+        {{>header}}
+        <p>Best weather tracking site</p>
+
+        <form>
+          <input placeholder="Location">
+          <button>Seach</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    {{>footer}}
+        <script src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "postman-request": "^2.88.1-postman.31",
+    "request": "^2.88.2"
+  }
+}
